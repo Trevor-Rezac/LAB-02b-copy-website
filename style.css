@@ -1,6 +1,39 @@
 body {
     color: red;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-rows:  75pc 1fr 20px;
 }
 * {
     box-sizing: border-box;
+}
+
+header {
+    background: indigo;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 125px 1fr 50px;
+    justify-items: center;
+}
+
+nav {
+    justify-self: center;
+}
+main {
+    overflow-y: auto;
+}
+h1 {
+    margin: 0;
+}
+
+footer {
+    background: steelblue;
+    color: aliceblue;
+    font-size: .8rem;
+    display: grid;
+    align-items: center;
+    padding: 0 5px;
 }
